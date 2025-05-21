@@ -16,18 +16,18 @@ This repository contains a simple Laravel 10 project that demonstrates:
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
+   git clone https://github.com/AshrafulSamiun/Laravel-Codding-Round.git
    cd your-repo-name
 2. **Run composer install**
 3. **Configure .env file **
     Please change  APP_URL=http://localhost to your server url if it host on server url
     Please change the database credential to .env file
-    -DB_CONNECTION=mysql
-    -DB_HOST=127.0.0.1
-    -DB_PORT=3306
+    - DB_CONNECTION=mysql
+    - DB_HOST=127.0.0.1
+    - DB_PORT=3306
     - DB_DATABASE=blog_post
     - DB_USERNAME=your user name
-    -DB_PASSWORD=your password here
+    - DB_PASSWORD=your password here
 
 4. Run migrations: php artisan migrate
 5. Serve app: php artisan serve
